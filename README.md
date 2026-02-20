@@ -70,8 +70,4 @@ To use MNIST training:
 
 2. Create a folder named `mnist/` in the project root.
 
-3. Place the following files inside it:
-   - `train-images.idx3-ubyte`
-   - `train-labels.idx1-ubyte`
-
 The application will automatically load the dataset when the files are present.
