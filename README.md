@@ -56,3 +56,22 @@ while smaller networks train faster and work well for simpler data.
 - NumPy
 - Matplotlib
 - Tkinter
+  
+---
+
+## MNIST Dataset
+
+The MNIST dataset is not included in this repository due to file size constraints.
+
+To use MNIST training:
+
+1. Download the MNIST dataset (IDX format), for example from:
+   https://www.kaggle.com/datasets/hojjatk/mnist-dataset
+
+2. Create a folder named `mnist/` in the project root.
+
+3. Place the following files inside it:
+   - `train-images.idx3-ubyte`
+   - `train-labels.idx1-ubyte`
+
+The application will automatically load the dataset when the files are present.
